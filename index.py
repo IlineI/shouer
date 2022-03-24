@@ -9,9 +9,9 @@ def abc():
 	payload = {}
 	headers = {
 			"Cache-Control":"no-cache",
-			"AppID":"wjB7LOP2sYkaMGLC",
+			"AppID":"wjB7UIO2sYkaNKLD",
 			"Version":"3.3.3",
-			"Authorization":"177b72f1-9551-4e0a-a8fd-27f3fc2df09d",
+			"Authorization":"123d13sd-2132-1234-1234-123412341234",
 			"Host":"api1.mimikko.cn",
 			"Connection":"Keep-Alive",
 			"Accept-Encoding":"gzip",
