@@ -2,8 +2,8 @@
 请自行用小黄鸟抓包兽耳桌面  
   
   
-需要修改AppID:"************"引号里的为自己应用的APPID  
-需要修改Authorization:"************************************"引号里的为自己应用的Authorization  
+需要修改AppID:"************"引号里的内容为自己应用的APPID  
+需要修改Authorization:"************************************"引号里的内容为自己应用的Authorization  
 例如：  
 	headers = {  
 			"Cache-Control":"no-cache",  
@@ -17,7 +17,7 @@
 	}  
   
 如需小米推送  
-请下载消息接收，并修改'alias':'%s'%('***********')中的***********为自己在消息接收中设置的别名  
+请下载消息接收，并修改'alias':'%s'%('IlineI')中的 IlineI 为自己在消息接收中设置的别名  
 例如requests.get('https://tdtt.top/send',params={'title':'%s'%('兽耳签到通知'),'content':'%s'%(data),'alias':'%s'%('IlineI')} ,verify=False)  
   
   
