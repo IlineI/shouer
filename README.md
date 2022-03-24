@@ -26,7 +26,7 @@
 	print(response2.text)  
 	data = "签到成功\n" + response1.text + response2.text  
 	urllib3.disable_warnings()  
-	requests.get('https://tdtt.top/send',params={'title':'%s'%('兽耳签到通知'),'content':'%s'%(data),'alias':'%s'%('linna10010')} ,verify=False)  
+	requests.get('https://tdtt.top/send',params={'title':'%s'%('兽耳签到通知'),'content':'%s'%(data),'alias':'%s'%('IlineI')} ,verify=False)  
   
   
 云函数触发管理可设置为	  
