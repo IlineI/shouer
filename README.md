@@ -24,7 +24,9 @@
 如无需小米推送，可以删除以下几行  
 	print(response1.text)  
 	print(response2.text)  
-	data = "签到成功\n" + response1.text + response2.text  
+	print(response3.text)  
+	print(response4.text)  
+	data = "签到成功\n" + response1.text + response2.text + response3.text + response4.text  
 	urllib3.disable_warnings()  
 	requests.get('https://tdtt.top/send',params={'title':'%s'%('兽耳签到通知'),'content':'%s'%(data),'alias':'%s'%('IlineI')} ,verify=False)  
   
